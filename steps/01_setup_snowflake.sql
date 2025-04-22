@@ -31,7 +31,8 @@ CREATE OR ALTER DATABASE QUICKSTART_{{environment}};
 -- To monitor data pipeline's completion
 CREATE OR REPLACE NOTIFICATION INTEGRATION email_integration
   TYPE=EMAIL
-  ENABLED=TRUE;
+  ENABLED=TRUE
+  ;
 
 
 -- Database level objects

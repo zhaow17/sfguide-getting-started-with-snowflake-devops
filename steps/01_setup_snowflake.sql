@@ -41,7 +41,8 @@ CREATE OR ALTER SCHEMA bronze
 ;
 CREATE OR ALTER SCHEMA silver
 ;
-CREATE OR ALTER SCHEMA gold;
+CREATE OR ALTER SCHEMA gold
+;
 
 
 -- Schema level objects
